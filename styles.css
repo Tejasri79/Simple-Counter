@@ -1,0 +1,64 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  
+  #counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 24px;
+    margin-bottom: 20px; /* Add spacing between heading and text */
+  }
+  
+  .line {
+    border-top: 2px solid white;
+    margin-bottom: 20px; /* Add spacing between line and text */
+  }
+  
+  #display {
+    margin-bottom: 20px; /* Set fixed margin for the display text */
+    max-width: 100%; /* Limit display text to 80% of the container width */
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    width: 120px; /* Set button width */
+    height: 40px; /* Set button height */
+    margin-right: 10px; /* Add space between buttons */
+  }
+  
+  .btn:hover {
+    background-color: #ccc;
+  }
+  
+  #error {
+    color: red;
+    display: none;
+    margin-bottom: 10px;
+  }
+  
+  #buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Add space between text and buttons */
+  }
+  
